@@ -1,0 +1,239 @@
+/* === STYLE UTAMA === */
+body {
+  background-color: #14202e;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+h2, h4 {
+  font-weight: 600;
+}
+
+.text-warning {
+  color: #d4af37 !important;
+}
+
+/* === NAVBAR === */
+.navbar {
+  background-color: #173d5c !important;
+  padding: 0.6rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: #d4af37 !important;
+  font-size: 1.4rem;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  margin: 0 0.4rem;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #d4af37 !important;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-collapse {
+  background-color: #173d5c;
+  border-radius: 0 0 10px 10px;
+  padding: 0.5rem 1rem;
+}
+
+/* === HERO / SLIDER === */
+.carousel-item img {
+  width: 100%;
+  height: 85vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.carousel-caption h1 {
+  color: #ffd700;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.carousel-caption p {
+  color: #f8f9fa;
+  font-size: 1.1rem;
+}
+
+/* === BAGIAN UMUM === */
+section {
+  padding: 80px 0;
+}
+
+.btn-custom {
+  background-color: #d4af37;
+  color: #14202e;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.btn-custom:hover {
+  background-color: #b6932c;
+  color: #fff;
+}
+
+/* === TABEL JADWAL === */
+.table {
+  color: white;
+}
+
+.table thead th {
+  background-color: #173d5c;
+  color: #d4af37;
+  font-weight: 600;
+}
+
+.table-bordered td, .table-bordered th {
+  border-color: #2c3e50;
+}
+
+/* === CARD PELAYANAN === */
+.card {
+  background-color: #173d5c;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* === GALERI === */
+#galeri .gallery-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+#galeri .gallery-img:hover {
+  transform: scale(1.03);
+}
+
+/* === PEMIMPIN === */
+#pemimpin img {
+  border: 3px solid #d4af37;
+}
+
+/* === KONTAK === */
+iframe {
+  border-radius: 10px;
+  width: 100%;
+  height: 350px;
+  border: none;
+}
+
+/* === FOOTER === */
+footer {
+  background-color: #173d5c;
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+/* === RESPONSIVE DESIGN === */
+
+/* Tablet dan ke bawah */
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+  .navbar-nav .nav-link {
+    font-size: 0.95rem;
+    padding: 0.4rem 0;
+  }
+  .carousel-item img {
+    height: 70vh;
+  }
+  section {
+    padding: 60px 0;
+  }
+}
+
+/* Mobile landscape (≤768px) */
+@media (max-width: 768px) {
+  .carousel-caption h1 {
+    font-size: 1.5rem;
+  }
+  .carousel-caption p {
+    font-size: 0.9rem;
+  }
+  .card-img-top, 
+  #galeri .gallery-img {
+    height: 200px;
+  }
+  .btn-custom {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+  .navbar-collapse {
+    text-align: center;
+  }
+}
+
+/* Mobile portrait (≤576px) */
+@media (max-width: 576px) {
+  .navbar {
+    padding: 0.4rem 0.8rem;
+  }
+  .carousel-item img {
+    height: 60vh;
+  }
+  .carousel-caption {
+    padding: 0.6rem;
+  }
+  .carousel-caption h1 {
+    font-size: 1.2rem;
+  }
+  .carousel-caption p {
+    font-size: 0.8rem;
+  }
+  section {
+    padding: 50px 0;
+  }
+  .card {
+    margin-bottom: 1rem;
+  }
+  iframe {
+    height: 250px;
+  }
+  footer {
+    font-size: 0.8rem;
+    padding: 15px 0;
+  }
+}

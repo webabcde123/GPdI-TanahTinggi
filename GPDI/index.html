@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPdI Tanah Tinggi</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    /* Samakan ukuran foto galeri dengan foto di Pelayanan & Komunitas */
+    #galeri .gallery-img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 0.5rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.15);
+      transition: transform 0.3s ease;
+    }
+
+    #galeri .gallery-img:hover {
+      transform: scale(1.03);
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid px-3">
+      <a class="navbar-brand" href="index.html">GPdI Tanah Tinggi</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="#beranda" class="nav-link">Beranda</a></li>
+          <li class="nav-item"><a href="#tentang" class="nav-link">Tentang Kami</a></li>
+          <li class="nav-item"><a href="#visi-misi" class="nav-link">Visi & Misi</a></li>
+          <li class="nav-item"><a href="#jadwal" class="nav-link">Jadwal</a></li>
+          <li class="nav-item"><a href="#pelayanan" class="nav-link">Pelayanan & Komunitas</a></li>
+          <li class="nav-item"><a href="#galeri" class="nav-link">Galeri</a></li>
+          <li class="nav-item"><a href="#pemimpin" class="nav-link">Pemimpin</a></li>
+          <li class="nav-item"><a href="#kontak" class="nav-link">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Slider -->
+  <section id="beranda" class="pt-5">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/gereja.jpg" class="d-block w-100" alt="Foto 1">
+          <div class="carousel-caption">
+            <h1 class="fw-bold">Selamat Datang di GPdI Tanah Tinggi</h1>
+            <p>Tempat di mana kasih dan pengharapan bertumbuh bersama.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/tentang2.jpg" class="d-block w-100" alt="Foto 2">
+          <div class="carousel-caption">
+            <h1 class="fw-bold">Ibadah Bersama</h1>
+            <p>Melayani dengan kasih, hidup dalam firman Tuhan.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/tentang3.jpg" class="d-block w-100" alt="Foto 3">
+          <div class="carousel-caption">
+            <h1 class="fw-bold">Bertumbuh dalam Iman</h1>
+            <p>Bersama kita menjadi terang bagi dunia.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tentang Kami -->
+  <section id="tentang" class="text-center">
+    <div class="container">
+      <h2 class="text-warning">Tentang Kami</h2>
+      <p>Didirikan oleh Pdt. Alm. Ong Yusuf Kurnia yang sebelumnya adalah salah satu tua-tua siding GPdI Ketapang Jl. Zainul Arifin, Jakarta.</p>
+      <a href="tentang.html" class="btn btn-custom">Lihat Selengkapnya</a>
+    </div>
+  </section>
+
+  <!-- Visi & Misi -->
+  <section id="visi-misi" class="text-center">
+    <div class="container">
+      <h2 class="text-warning">Visi & Misi</h2>
+      <h4 class="mt-4">Visi</h4>
+      <p>
+        We believe that we are family of believers in preparation to be perfect bride of Christ.
+        <br>
+        Menjadi sebuah keluarga orang percaya yang disiapkan untuk menjadi mempelai Kristus yang sempurna.
+      </p>
+      <h4 class="mt-4">Misi</h4>
+      <ul class="list-unstyled">
+        <li>- Mengajar keluarga jemaat untuk berdoa secara efektif untuk mendapatkan terobosan dalam hidup.</li>
+        <li>- Melengkapi pemimpin-pemimpin berintegritas tinggi berhati pelayan yang unggul dan berdampak dalam Gereja dan marketplace.</li>
+        <li>- Memuridkan 3000 pemimpin untuk Kristus.</li>
+        <li>- Memberitakan injil keselamatan baik di Gereja lokal dan mengutus penginjil untuk pemberitaan injil di luar Gereja.</li>
+        <li>- Membudayakan kasih dalam segala aspek kehidupan.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Jadwal Ibadah -->
+  <section id="jadwal" class="text-center">
+    <div class="container">
+      <h2 class="text-warning mb-5">Jadwal Ibadah</h2>
+      <div class="table-responsive">
+        <table class="table table-bordered text-white">
+          <thead>
+            <tr>
+              <th>Hari</th>
+              <th>Waktu</th>
+              <th>Ibadah</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Minggu</td><td>09:00 WIB</td><td>Ibadah Raya</td></tr>
+            <tr><td>Rabu</td><td>18:00 WIB</td><td>Ibadah Kaum Ibu</td></tr>
+            <tr><td>Rabu</td><td>19:00 WIB</td><td>Ibadah Kaum Bapak</td></tr>
+            <tr><td>Jumat</td><td>18:30 WIB</td><td>Ibadah Beston</td></tr>
+            <tr><td>Sabtu</td><td>18:00 WIB</td><td>Ibadah Kaum Muda</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pelayanan & Komunitas -->
+  <section id="pelayanan">
+    <div class="container text-center">
+      <h2 class="text-warning mb-5">Pelayanan & Komunitas</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 p-3 shadow-sm">
+            <img src="img/kaum-ibu.jpg" class="card-img-top rounded" alt="Kaum Ibu">
+            <div class="card-body">
+              <h5 class="card-title">Kaum Ibu</h5>
+              <p class="card-text">Menjadi penopang doa dan teladan dalam keluarga serta gereja.</p>
+              <a href="kaum-ibu.html" class="btn btn-custom">Lihat Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 p-3 shadow-sm">
+            <img src="img/kaum-bapak.jpg" class="card-img-top rounded" alt="Kaum Bapak">
+            <div class="card-body">
+              <h5 class="card-title">Kaum Bapak</h5>
+              <p class="card-text">Membangun iman, tanggung jawab, dan kepemimpinan rohani.</p>
+              <a href="kaum-bapak.html" class="btn btn-custom">Lihat Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 p-3 shadow-sm">
+            <img src="img/komunitas-pemuda.jpg" class="card-img-top rounded" alt="Kaum Muda">
+            <div class="card-body">
+              <h5 class="card-title">Kaum Muda</h5>
+              <p class="card-text">Mempersiapkan generasi muda yang berintegritas dalam Kristus.</p>
+              <a href="kaum-muda.html" class="btn btn-custom">Lihat Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 p-3 shadow-sm">
+            <img src="img/sekolah-minggu.jpg" class="card-img-top rounded" alt="Sekolah Minggu">
+            <div class="card-body">
+              <h5 class="card-title">Sekolah Minggu</h5>
+              <p class="card-text">Membentuk iman anak sejak dini melalui pengajaran dan pujian.</p>
+              <a href="sekolah-minggu.html" class="btn btn-custom">Lihat Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 p-3 shadow-sm">
+            <img src="img/multimedia.jpg" class="card-img-top rounded" alt="Tim Multimedia">
+            <div class="card-body">
+              <h5 class="card-title">Tim Multimedia</h5>
+              <p class="card-text">Mendukung pelayanan melalui teknologi dan media kreatif.</p>
+              <a href="multimedia.html" class="btn btn-custom">Lihat Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card h-100 p-3 shadow-sm">
+            <img src="img/tentang2.jpg" class="card-img-top rounded" alt="Ibadah Raya">
+            <div class="card-body">
+              <h5 class="card-title">Ibadah Raya</h5>
+              <p class="card-text">Persekutuan utama jemaat untuk memuji dan mendengar firman.</p>
+              <a href="ibadah.html" class="btn btn-custom">Lihat Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeri -->
+  <section id="galeri" class="text-center">
+    <div class="container">
+      <h2 class="text-warning mb-5">Galeri</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <img src="img/galeri.jpg" class="gallery-img" alt="Kegiatan 1">
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="img/galeri2.jpg" class="gallery-img" alt="Kegiatan 2">
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="img/galeri3.jpg" class="gallery-img" alt="Kegiatan 3">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <img src="img/galeri4.jpg" class="gallery-img" alt="Kegiatan 4">
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="img/galeri5.jpg" class="gallery-img" alt="Kegiatan 5">
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="img/galeri6.jpg" class="gallery-img" alt="Kegiatan 6">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pemimpin -->
+  <section id="pemimpin" class="text-center">
+    <div class="container">
+      <h2 class="text-warning">Pemimpin Gereja</h2>
+      <img src="img/gembala.jpg" class="rounded-circle mb-3" width="200" alt="Pemimpin">
+      <h4 class="fw-bold">PDT. DRA. Pretty Patricia Mangi, M.A.</h4>
+      <p>Gembala Sidang</p>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="text-center">
+    <div class="container">
+      <h2 class="text-warning">Kontak</h2>
+      <p>Instagram: <a href="https://www.instagram.com/gpditanahtinggi/" target="_blank">@gpditanahtinggi</a></p>
+      <p>Youtube: <a href="https://www.youtube.com/@gpditanahtinggi" target="_blank">@gpditanahtinggi</a></p>
+      <p>Alamat: 31, Jl. KH. Agus Salim No.31-32, RT.001/RW.005, Tanah Tinggi, Tangerang, Tangerang City, Banten 15119</p>
+      <div class="mt-4">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.7414473918034!2d106.65436187355353!3d-6.165369360419342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f8ebc0febeed%3A0xe4ba4db18b2ce382!2sGpdi%20Tanah%20Tinggi%2C%20Jl.%20KH.%20Agus%20Salim%20No.37%2C%20RT.002%2FRW.001%2C%20Tanah%20Tinggi%2C%20Kec.%20Tangerang%2C%20Kota%20Tangerang%2C%20Banten%2015119!5e0!3m2!1sid!2sid!4v1759762724955!5m2!1sid!2sid" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const heroCarousel = document.querySelector('#heroCarousel');
+    new bootstrap.Carousel(heroCarousel, { interval: 3000, ride: 'carousel' });
+  </script>
+</body>
+</html>
